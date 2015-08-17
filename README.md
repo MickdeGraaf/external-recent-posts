@@ -1,2 +1,2 @@
 # External Recent Posts
-Allows you to place links to recent WordPress posts on a different domain
+Similar to the WordPress built-in Recent Posts widget but for a external WordPress site.
