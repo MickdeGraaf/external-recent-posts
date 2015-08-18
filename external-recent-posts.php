@@ -22,7 +22,7 @@ class ExternalRecentPosts extends WP_Widget {
 
     extract($args);
 
-    if(! isset($instance['timestamp']) || $instance['timestamp'] > (time() - 60 * 60) ){
+    if(! isset($instance['timestamp']) || $instance['timestamp'] < (time() - 60 * 60) ){
 
       $id = $args['widget_id'];
       $id = str_replace("externalrecentposts-", "", $id);
